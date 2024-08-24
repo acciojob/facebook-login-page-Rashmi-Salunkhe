@@ -12,15 +12,15 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
     </div>
     <div class="description">
-      <h1>Facebook helps you connect and share with the people in your life.</h1>
+      <h1>Connect with friends and the world around you on Facebook.</h1>
     </div>
     <div class="login-form">
       <form action="/login" method="POST">
-        <input type="text" name="email" placeholder="Email or Phone Number" required>
-        <input type="password" name="password" placeholder="Password" required>
+        <input type="text" id="email" name="email" placeholder="Email or Phone Number" required>
+        <input type="password" id="password" name="password" placeholder="Password" required>
         <button type="submit">Log In</button>
       </form>
-      <a href="#" class="forgotten-account">Forgotten account?</a>
+      <a href="/recover/initiate" class="forgotten-account">Forgotten account?</a>
     </div>
     <div class="signup">
       <button onclick="window.location.href='/signup'">Create new account</button>
